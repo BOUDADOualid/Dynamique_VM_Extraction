@@ -1,0 +1,730 @@
+"2019-01-10 08:33:26 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 9632 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 08:33:26 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 08:33:26 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@127680e: startup date [Thu Jan 10 08:33:26 GMT 2019]; root of context hierarchy
+""2019-01-10 08:33:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 08:33:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 08:33:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:33:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 08:33:29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 08:33:29 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 08:33:29 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 08:33:29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 08:33:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:33:31 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 08:33:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 08:33:32 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 08:33:32 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 08:33:32 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 08:33:32 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 6.176 seconds (JVM running for 7.433)
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:33 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:33:34 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@127680e: startup date [Thu Jan 10 08:33:26 GMT 2019]; root of context hierarchy
+""2019-01-10 08:33:34 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 08:33:34 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 08:33:34 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:33:34 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 08:33:34 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 08:44:13 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 12520 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 08:44:13 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 08:44:13 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2681b4ff: startup date [Thu Jan 10 08:44:13 GMT 2019]; root of context hierarchy
+""2019-01-10 08:44:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 08:44:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 08:44:15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:44:15 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 08:44:15 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 08:44:15 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 08:44:15 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 08:44:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 08:44:16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:44:17 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 08:44:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 08:44:18 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 08:44:18 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 08:44:18 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 08:44:18 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.313 seconds (JVM running for 6.294)
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:44:19 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2681b4ff: startup date [Thu Jan 10 08:44:13 GMT 2019]; root of context hierarchy
+""2019-01-10 08:44:19 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 08:44:19 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 08:44:19 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:44:19 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 08:44:19 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 08:46:24 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 9280 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 08:46:24 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 08:46:24 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 08:46:24 GMT 2019]; root of context hierarchy
+""2019-01-10 08:46:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 08:46:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 08:46:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:46:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 08:46:26 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 08:46:26 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 08:46:26 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 08:46:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 08:46:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:46:28 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 08:46:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 08:46:29 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 08:46:29 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 08:46:29 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 08:46:29 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.107 seconds (JVM running for 5.947)
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:46:30 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 08:46:24 GMT 2019]; root of context hierarchy
+""2019-01-10 08:46:30 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 08:46:30 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 08:46:30 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:46:30 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 08:46:30 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 08:49:33 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 11592 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 08:49:33 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 08:49:33 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fd91c55: startup date [Thu Jan 10 08:49:33 GMT 2019]; root of context hierarchy
+""2019-01-10 08:49:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 08:49:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 08:49:35 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:49:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 08:49:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 08:49:35 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 08:49:35 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 08:49:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 08:49:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:49:37 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 08:49:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 08:49:38 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 08:49:38 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 08:49:38 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 08:49:38 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.605 seconds (JVM running for 6.509)
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:38 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:49:39 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fd91c55: startup date [Thu Jan 10 08:49:33 GMT 2019]; root of context hierarchy
+""2019-01-10 08:49:39 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 08:49:39 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 08:49:39 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:49:39 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 08:49:39 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 08:50:57 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 11932 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 08:50:57 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 08:50:57 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54afc5ce: startup date [Thu Jan 10 08:50:57 GMT 2019]; root of context hierarchy
+""2019-01-10 08:50:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 08:50:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 08:50:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:50:59 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 08:50:59 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 08:50:59 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 08:50:59 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 08:50:59 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 08:51:00 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:51:01 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 08:51:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 08:51:02 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 08:51:02 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 08:51:02 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 08:51:02 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.315 seconds (JVM running for 6.191)
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 08:51:03 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@54afc5ce: startup date [Thu Jan 10 08:50:57 GMT 2019]; root of context hierarchy
+""2019-01-10 08:51:03 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 08:51:03 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 08:51:03 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 08:51:03 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 08:51:03 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 09:04:21 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 15352 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 09:04:21 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 09:04:22 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 09:04:22 GMT 2019]; root of context hierarchy
+""2019-01-10 09:04:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 09:04:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 09:04:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 09:04:24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 09:04:24 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 09:04:24 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 09:04:24 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 09:04:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 09:04:25 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 09:04:25 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 09:04:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 09:04:26 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 09:04:26 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 09:04:26 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 09:04:26 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.507 seconds (JVM running for 6.391)
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:27 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 09:04:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 09:04:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 09:04:28 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 09:04:22 GMT 2019]; root of context hierarchy
+""2019-01-10 09:04:28 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 09:04:28 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 09:04:28 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 09:04:28 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 09:04:28 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 13:40:31 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 13904 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 13:40:31 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 13:40:31 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dcc458b: startup date [Thu Jan 10 13:40:31 GMT 2019]; root of context hierarchy
+""2019-01-10 13:40:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 13:40:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 13:40:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:40:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 13:40:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 13:40:33 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 13:40:33 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 13:40:33 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 13:40:34 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:40:35 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 13:40:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 13:40:36 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 13:40:36 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 13:40:36 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 13:40:36 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.227 seconds (JVM running for 6.114)
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:36 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:40:37 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dcc458b: startup date [Thu Jan 10 13:40:31 GMT 2019]; root of context hierarchy
+""2019-01-10 13:40:37 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 13:40:37 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 13:40:37 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:40:37 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 13:40:37 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 13:43:23 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 8432 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 13:43:23 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 13:43:23 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e41ee96: startup date [Thu Jan 10 13:43:23 GMT 2019]; root of context hierarchy
+""2019-01-10 13:43:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 13:43:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 13:43:25 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:43:25 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 13:43:25 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 13:43:25 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 13:43:25 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 13:43:25 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 13:43:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:43:27 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 13:43:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 13:43:28 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 13:43:28 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 13:43:28 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 13:43:28 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.226 seconds (JVM running for 6.165)
+""2019-01-10 13:43:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:28 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:43:29 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e41ee96: startup date [Thu Jan 10 13:43:23 GMT 2019]; root of context hierarchy
+""2019-01-10 13:43:29 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 13:43:29 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 13:43:29 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:43:29 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 13:43:29 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-01-10 13:44:36 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Starting DynamiqueVmExtractionApplication on MC0ZUKMC with PID 14732 (C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction\target\classes started by A705896 in C:\Users\A705896\Desktop\env_dev\workspace\Dynamique_VM_Extraction)
+""2019-01-10 13:44:36 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - No active profile set, falling back to default profiles: default
+""2019-01-10 13:44:36 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 13:44:36 GMT 2019]; root of context hierarchy
+""2019-01-10 13:44:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-01-10 13:44:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-01-10 13:44:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:44:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-01-10 13:44:39 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2019-01-10 13:44:39 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-01-10 13:44:39 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2019-01-10 13:44:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2019-01-10 13:44:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:44:40 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-01-10 13:44:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-01-10 13:44:41 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2019-01-10 13:44:41 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2019-01-10 13:44:41 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2019-01-10 13:44:41 [restartedMain] INFO  o.b.e.DynamiqueVmExtractionApplication - Started DynamiqueVmExtractionApplication in 5.609 seconds (JVM running for 6.663)
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:42 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineTicket
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [restartedMain] INFO  org.back.csv.metier.JobDate - fin de clacule deadLineGroupe X 2.5
+""2019-01-10 13:44:43 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@185cee1: startup date [Thu Jan 10 13:44:36 GMT 2019]; root of context hierarchy
+""2019-01-10 13:44:43 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2019-01-10 13:44:43 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2019-01-10 13:44:43 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-01-10 13:44:43 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-01-10 13:44:43 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
